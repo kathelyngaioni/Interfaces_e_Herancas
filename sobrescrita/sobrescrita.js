@@ -1,5 +1,4 @@
 import {Cliente} from "./Cliente.js"
-import {Conta} from "./Conta.js"
 import {contaCorrente} from "./ContaCorrente.js"
 import {contaPoupanca} from "./ContaPoupanca.js"
 
