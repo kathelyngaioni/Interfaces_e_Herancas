@@ -40,4 +40,8 @@ export class Conta {
         conta.depositar(valorSacado);
 
     }
+
+    teste(){
+     console.log("teste na Conta");
+   }
 }

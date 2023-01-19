@@ -23,3 +23,5 @@ console.log(ContaCorrente2);
 console.log(ContaCorrente1);
 console.log(ContaPoupanca);
 console.log(contaCorrente.numeroDeContas);
+
+ContaCorrente2.teste();

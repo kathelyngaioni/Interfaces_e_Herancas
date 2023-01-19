@@ -15,4 +15,9 @@ export class contaCorrente extends Conta{
             return valorSacado;
         }
     }
+
+  teste(){
+    super.teste();
+    console.log("teste na contaCorrente");
+  }
 }
