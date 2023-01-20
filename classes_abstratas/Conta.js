@@ -1,8 +1,6 @@
 export class Conta {
   
   constructor(saldoInicial, cliente, agencia) {
-    //eu criei um erro para parar minha execução do programa
-    //caso o programador crie uma instancia de Conta
     if(this.constructor == Conta) { 
       throw new Error("Você não deveria estar instanciando um objeto do tipo Conta");
      }
@@ -24,9 +22,12 @@ export class Conta {
     return this._saldo;
   }
 
+  //método abstrato
+  //lançar um erro quando chamar um método abstrato
   sacar(valor) {
-    let taxa = 1;
-    return this._sacar(valor, taxa);
+    // let taxa = 1;
+    // return this._sacar(valor, taxa);
+    throw new Error("O método sacar da Conta é abstrato");
   }
 
    _sacar(valor, taxa) {
